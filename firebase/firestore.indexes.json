@@ -1,0 +1,36 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "ServicesRegistration",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ServiceType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Locality",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "VetBooking",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Useremail",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DateTime",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
